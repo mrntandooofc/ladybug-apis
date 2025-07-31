@@ -1,0 +1,36 @@
+{
+  "name": "ladybug-api",
+  "version": "1.0.0",
+  "description": "Free Ladybug Bot APIs for WhatsApp automation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel --prod",
+    "test": "node test/api-test.js"
+  },
+  "keywords": ["whatsapp", "bot", "api", "ladybug", "free", "youtube", "downloader"],
+  "author": "Blessed Tech",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "qrcode": "^1.5.3",
+    "sharp": "^0.32.6",
+    "node-cache": "^5.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrntandooofc/ladybug-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrntandooofc/ladybug-api/issues"
+  },
+  "homepage": "https://ladybug-api.vercel.app"
+}
