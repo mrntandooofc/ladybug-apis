@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node index.js",
     "dev": "vercel dev",
-    "build": "vercel build",
     "deploy": "vercel --prod",
     "test": "node test/api-test.js"
   },
